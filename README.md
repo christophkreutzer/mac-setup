@@ -22,18 +22,7 @@ Once we have `homebrew`, `cask` (and `mas` if needed) we're ready to go (yes, th
 
 ```bash
 # Efficiency booster
-brew cask install alfred
-
-# CloudApp
-mas install 417602904
-
-# Slack
-brew cask install slack
-
-# Notes & related
-brew cask install evernote
-brew cask install skitch
-mas install 1091189122 #Bear
+#brew cask install alfred
 
 # Amphetamine
 mas install 937984704
@@ -43,38 +32,44 @@ brew cask install bartender
 
 # Magnet
 mas install 441258766
+
+# Passwords
+brew cask install macpass
+# OTP Auth
+mas install 928941247 # OTP Manager
+
+# Various
+mas install 512464723 # AS Timer
+mas install 406825478 # Telephone
+brew cask install diskwave
+brew cask install yed
+# http://www.northernspysoftware.com/software/invisible
+
+# Battery
+brew cask install coconutbattery
+brew cask install slimbatterymonitor
 ```
+
 ### Browsers
 
 ```bash
 # Browsers
 brew cask install google-chrome
-brew cask install brave-browser
-brew cask install firefox
+brew cask install google-chrome-canary
 ```
 
 ### Common apps
 
 ```bash
-
-# Authy
-brew cask install authy
-
 # Calibre
 brew cask install calibre
 
 # Dropbox
 brew cask install dropbox
 
-# Gimp
+# Gimp & Scribus
 brew cask install gimp
-
-# Some of the Google stuff
-brew cask install google-photos-backup-and-sync
-brew cask install google-earth
-
-# Kindle
-brew cask install kindle
+brew cask install scribus
 
 # MS
 brew cask install microsoft-office
@@ -82,40 +77,41 @@ brew cask install microsoft-office
 # Spotify
 brew cask install spotify
 
-# Shazam
-mas install 897118787
-
-# Twitter
-mas install 409789998
-
 # The Unarchiver
 brew cask install the-unarchiver
 
-# VLC
-brew cask install vlc
-
-# Videoconference
+# Social
+brew cask install keybase
 brew cask install skype
-brew cask install skype-for-business
-brew cask install zoomus
-
-# Whatsapp
 brew cask install whatsapp
+
+# Photos
+brew cask install exifrenamer
+# DxO PhotoLab
+# http://www.northernspysoftware.com/software/colorpicker
+
+# Videos
+brew cask install vlc
+brew cask install handbrake
+
+# Others
+brew cask install istumbler
+
 ```
 
 ### Development
 
 ```bash
 # A good terminal
-brew cask install iterm2
+#brew cask install iterm2
 brew install jq
 brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
-# And definitely check plugins, templates, themes, etc. at:
-# https://github.com/robbyrussell/oh-my-zsh
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install tree
 brew install wget
-brew install tldr
-brew install thefuck
+brew cask install kitty
+#brew install tldr
+#brew install thefuck
 
 # Go2Shell
 brew cask install go2shell
@@ -123,94 +119,67 @@ brew cask install go2shell
 # Shuttle
 brew cask install shuttle 
 
-# AWS CLI
-brew install awscli
-
 # API development
 brew cask install paw
-brew cask install postman
+#brew cask install postman
 
 # Text editors/IDEs
-brew cask install textmate
-brew cask install sublime-text
-brew cask install brackets
-brew cask install atom
-brew cask install visual-studio-code
-
-# Charles proxy
-brew cask install charles
-
-# Dash
-brew cask install dash
+mas install 404010395 # TextWrangler
+#brew cask install brackets
+brew cask install vscodium
+brew cask install coda
+brew cask install intellij-idea-ce
+brew cask install pycharm-ce
 
 # Docker
 brew cask install docker
-brew cask install kitematic
-
-# ES
-brew install elasticsearch
-
-# Gas Mask
-brew cask install gas-mask
 
 # Git-related
-brew cask install rowanj-gitx
-brew cask install sourcetree
-brew cask install tower
+brew cask install github
+#brew cask install tower
 
-# GoLang
+# Languages
+brew cask install adoptopenjdk
 brew install go
-
-# Ngrok
-brew cask install ngrok
-
-# Python
 brew install python
 brew install python3
-brew cask install anaconda
+#brew cask install anaconda
+brew cask install data-science-studio
+
+# Ngrok
+#brew cask install ngrok
 
 # DevOps
-brew cask install vagrant
+#brew cask install vagrant
 brew cask install virtualbox
-brew install packer
-brew install terraform
+brew cask install balenaetcher
+#brew install packer
+#brew install terraform
+#mas install 603117688 # CCMenu
 
 # Cloud storage and related
-brew cask install cyberduck
-#brew cask install filezilla # Seems they're evil lately, do NOT install anymore.
-
-# JetBrains
-brew cask install phpstorm
-brew cask install pycharm
-brew cask install rubymine
-brew cask install intellij-idea
+#brew cask install cyberduck
+brew cask install transmit
+brew cask install homebrew/cask-versions/adoptopenjdk8
+brew cask install jdownloader
 
 # PHP & related
 brew install composer
 
 # Databases
 brew cask install sequel-pro
+brew cask install psequel
+brew cask install db-browser-for-sqlite
+brew cask install apache-directory-studio
 
 # VPN
 brew cask install tunnelblick
+brew cask install ssh-tunnel-manager
+
+# Mobile
+brew cask install android-file-transfer
+mas install 1037126344 # Apple Configurator 2
 
 # Xcode. Will take forever to download, yes. Not needed by everyone.
 mas install 497799835
-```
-
-## Google Chrome stuff
-
-Some useful pointers if we have not added those to the Google account yet
-
-- https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb
-- https://chrome.google.com/webstore/detail/browserstack-local/mfiddfehmfdojjfdpfngagldgaaafcfo
-- https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj
-- https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki
-- https://chrome.google.com/webstore/detail/google-hangouts/knipolnnllmklapflnccelgolnpehhpl
-
-
-## Others/ToDo
-
-```
-# Wine, winebottler
 ```
