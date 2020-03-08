@@ -1,0 +1,11 @@
+---
+packages_homebrew:
+ - mas
+
+packages_homebrew_cask:
+ - google-chrome
+
+packages_mac_app_store:
+ - name: Amphetamine
+   id: 937984704
+
