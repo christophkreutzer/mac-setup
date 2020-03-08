@@ -1,11 +1,105 @@
 ---
 packages_homebrew:
- - mas
+# for Mac App Store
+  - mas
+# Development - Terminal
+  - jq
+  - zsh
+  - zsh-completions
+  - zsh-syntax-highlighting
+  - zsh-autosuggestions
+# Development - Languages
+  - go
+  - php
+  - python
+  - python@3.8
+# Development - DevOps
+  - packer
+  - terraform
+# Development - PHP and related
+  - composer
 
 packages_homebrew_cask:
- - google-chrome
+  - homebrew/cask-versions/adoptopenjdk8
+# Productivity
+  - bartender
+  - macpass
+  - diskwave
+  - yed
+  - coconutbattery
+  - slimbatterymonitor
+  - shuttle
+# Browsers
+  - google-chrome
+  - google-chrome-canary
+# Common Apps
+  - calibre
+  - dropbox
+  - gimp
+  - scribus
+  - microsoft-office
+  - spotify
+  - the-unarchiver
+  - istumbler
+# Common Apps - Social
+  - keybase
+  - skype
+  - whatsapp
+# Common Apps - Photos
+  - exifrenamer
+# Common Apps - Videos
+  - vlc
+  - handbrake
+# Development - Terminal
+  - iterm2
+  - kitty
+  - go2shell
+# Development - API
+  - paw
+# Development - Text Editors/IDEs
+  - vscodium
+  - coda
+  - intellij-idea-ce
+  - pycharm-ce
+# Development - DevOps
+  - virtualbox
+  - balenaetcher
+# Development - Cloud storage and related
+  - transmit
+  - jdownloader
+# Development - Databases
+  - sequel-pro
+  - psequel
+  - db-browser-for-sqlite
+  - apache-directory-studio
+# Development - DS/DE
+  - data-science-studio
+# Development - VPN
+  - tunnelblick
+  - ssh-tunnel-manager
+# Development - Mobile
+  - android-file-transfer
 
 packages_mac_app_store:
- - name: Amphetamine
-   id: 937984704
-
+# Productivity
+  - name: Amphetamine
+    id: 937984704
+  - name: Magnet
+    id: 441258766
+  - name: OTP Manager
+    id: 928941247
+  - name: AS Timer
+    id: 512464723
+  - name: Telephone
+    id: 406825478
+# Development - Text Editors/IDEs
+  - name: TextWrangler
+    id: 404010395
+# Development - DevOps
+  - name: CCMenu
+    id: 603117688
+# Development - Mobile
+  - name: Apple Configurator 2
+    id: 1037126344
+  - name: Xcode
+    id: 497799835

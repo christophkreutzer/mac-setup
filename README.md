@@ -103,7 +103,7 @@ brew cask install istumbler
 
 ```bash
 # A good terminal
-#brew cask install iterm2
+brew cask install iterm2
 brew install jq
 brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -141,10 +141,9 @@ brew cask install github
 # Languages
 brew cask install adoptopenjdk
 brew install go
+brew install php
 brew install python
-brew install python3
-#brew cask install anaconda
-brew cask install data-science-studio
+brew install python@3.8
 
 # Ngrok
 #brew cask install ngrok
@@ -153,9 +152,9 @@ brew cask install data-science-studio
 #brew cask install vagrant
 brew cask install virtualbox
 brew cask install balenaetcher
-#brew install packer
-#brew install terraform
-#mas install 603117688 # CCMenu
+brew install packer
+brew install terraform
+mas install 603117688 # CCMenu
 
 # Cloud storage and related
 #brew cask install cyberduck
@@ -163,7 +162,7 @@ brew cask install transmit
 brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install jdownloader
 
-# PHP & related
+# PHP and related
 brew install composer
 
 # Databases
@@ -171,6 +170,10 @@ brew cask install sequel-pro
 brew cask install psequel
 brew cask install db-browser-for-sqlite
 brew cask install apache-directory-studio
+
+# DS/DE
+#brew cask install anaconda
+brew cask install data-science-studio
 
 # VPN
 brew cask install tunnelblick
