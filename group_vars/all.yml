@@ -29,6 +29,8 @@ packages_homebrew_cask:
   - coconutbattery
   - slimbatterymonitor
   - shuttle
+  - ha-menu
+  - monitorcontrol
 # Browsers
   - google-chrome
   - google-chrome-canary
@@ -93,8 +95,8 @@ packages_mac_app_store:
   - name: Telephone
     id: 406825478
 # Development - Text Editors/IDEs
-  - name: TextWrangler
-    id: 404010395
+  - name: BBEdit
+    id: 404009241
 # Development - DevOps
   - name: CCMenu
     id: 603117688
