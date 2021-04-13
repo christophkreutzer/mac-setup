@@ -1,7 +1,7 @@
 ---
 packages_homebrew:
 # for Mac App Store
-  - mas
+  - mas-cli/tap/mas
 # Development - Terminal
   - jq
   - zsh
