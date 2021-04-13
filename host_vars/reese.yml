@@ -32,7 +32,6 @@ packages_homebrew_cask:
   - microsoft-office
   - spotify
   - the-unarchiver
-  - istumbler
 # Common Apps - Social
   - keybase
   - whatsapp
