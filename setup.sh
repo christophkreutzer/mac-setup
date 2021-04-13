@@ -11,5 +11,5 @@ echo "Setup Ansible..."
 brew install ansible
 
 echo "All done. You may now run the setup playbook!"
-echo "  ansible-playbook -i hosts setup.yml"
+echo "  ansible-playbook -i hosts -l <system> setup.yml"
 

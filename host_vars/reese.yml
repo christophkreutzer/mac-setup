@@ -9,25 +9,16 @@ packages_homebrew:
   - zsh-syntax-highlighting
   - zsh-autosuggestions
 # Development - Languages
-  - go
   - php
   - python
   - python@3.9
-# Development - DevOps
-  - packer
-  - terraform
-# Development - PHP and related
-  - composer
 
 packages_homebrew_cask:
   - homebrew/cask-versions/adoptopenjdk8
 # Productivity
-  - bartender
   - macpass
   - diskwave
   - yed
-  - coconutbattery
-  - slimbatterymonitor
   - shuttle
   - ha-menu
   - monitorcontrol
@@ -35,7 +26,6 @@ packages_homebrew_cask:
   - google-chrome
   - google-chrome-canary
 # Common Apps
-  - calibre
   - dropbox
   - gimp
   - scribus
@@ -45,7 +35,6 @@ packages_homebrew_cask:
   - istumbler
 # Common Apps - Social
   - keybase
-  - skype
   - whatsapp
 # Common Apps - Photos
   - exifrenamer
@@ -54,33 +43,14 @@ packages_homebrew_cask:
   - handbrake
 # Development - Terminal
   - iterm2
-  - kitty
   - go2shell
-# Development - API
-  - paw
 # Development - Text Editors/IDEs
   - vscodium
-  - coda
-  - intellij-idea-ce
-  - pycharm-ce
-# Development - DevOps
-  - virtualbox
-  - balenaetcher
 # Development - Cloud storage and related
-  - transmit
   - jdownloader
-# Development - Databases
-  - sequel-pro
-  - psequel
-  - db-browser-for-sqlite
-  - apache-directory-studio
-# Development - DS/DE
-  - data-science-studio
 # Development - VPN
   - tunnelblick
   - ssh-tunnel-manager
-# Development - Mobile
-  - android-file-transfer
 
 packages_mac_app_store:
 # Productivity
@@ -97,11 +67,3 @@ packages_mac_app_store:
 # Development - Text Editors/IDEs
   - name: BBEdit
     id: 404009241
-# Development - DevOps
-  - name: CCMenu
-    id: 603117688
-# Development - Mobile
-  - name: Apple Configurator 2
-    id: 1037126344
-  - name: Xcode
-    id: 497799835
