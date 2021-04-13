@@ -105,3 +105,6 @@ packages_mac_app_store:
     id: 1037126344
   - name: Xcode
     id: 497799835
+# Development - VPN
+  - name: Tailscale
+    id: 1475387142

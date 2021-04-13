@@ -66,3 +66,6 @@ packages_mac_app_store:
 # Development - Text Editors/IDEs
   - name: BBEdit
     id: 404009241
+# Development - VPN
+  - name: Tailscale
+    id: 1475387142
