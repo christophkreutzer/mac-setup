@@ -69,3 +69,17 @@ packages_mac_app_store:
 # Development - VPN
   - name: Tailscale
     id: 1475387142
+
+packages_manual:
+# Productivity
+  - name: InVisible
+    url: http://www.northernspysoftware.com/software/invisible
+  - name: Oh My Zsh
+    url: https://github.com/ohmyzsh/ohmyzsh/
+  - name: Meslo Font for Powerline
+    url: https://github.com/powerline/fonts/tree/master/Meslo%20Slashed
+# Common Apps - Photos
+  - name: DxO PhotoLab
+    url: https://shop.dxo.com/en/license/account/listing/
+  - name: Adobe CS6 Design Standard
+    url: https://account.adobe.com/products

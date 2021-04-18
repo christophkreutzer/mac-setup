@@ -2,19 +2,23 @@
 - hosts: mac
   gather_facts: no
   tasks:
-   - name: 'Install Homebrew formulas'
-     homebrew:
-       name: "{{ item }}"
-       state: present
-     loop: "{{ packages_homebrew }}"
-   - name: 'Install Homebrew casks'
-     homebrew_cask:
-       name: "{{ item }}"
-       state: present
-     loop: "{{ packages_homebrew_cask }}"
-   - name: 'Install Mac App Store apps'
-     shell: "mas list | grep -e '^{{ item.id }} ' || mas install '{{ item.id }}'"
-     loop: "{{ packages_mac_app_store }}"
-     register: result
-     changed_when: result.stdout.find('Installed') != -1
-
+    - name: 'Install Homebrew formulas'
+      homebrew:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages_homebrew }}"
+    - name: 'Install Homebrew casks'
+      homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages_homebrew_cask }}"
+    - name: 'Install Mac App Store apps'
+      shell: "mas list | grep -e '^{{ item.id }} ' || mas install '{{ item.id }}'"
+      loop: "{{ packages_mac_app_store }}"
+      register: result
+      changed_when: result.stdout.find('Installed') != -1
+    - name: 'Reminder for manual installations'
+      debug:
+        var: item
+      loop: "{{ packages_manual }}"
+      tags: test
